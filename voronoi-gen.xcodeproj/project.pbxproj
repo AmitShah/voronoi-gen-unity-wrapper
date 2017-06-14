@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F13FF3E1EEFABB9008FFA62 /* libvoro++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F13FF3D1EEFABB9008FFA62 /* libvoro++.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		3F13FF411EEFAEB6008FFA62 /* generate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F13FF401EEFAEB6008FFA62 /* generate.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F13FF2B1EEFA75B008FFA62 /* voronoi-gen.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "voronoi-gen.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F13FF2E1EEFA75B008FFA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F13FF3D1EEFABB9008FFA62 /* libvoro++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libvoro++.a"; path = "/Users/amitshah/Documents/macosx/voronoi-gen/../voro++-0.4.6/src/libvoro++.a"; sourceTree = "<absolute>"; };
+		3F13FF401EEFAEB6008FFA62 /* generate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = generate.mm; sourceTree = "<group>"; };
+		3F13FF421EEFAF2E008FFA62 /* generate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = generate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F13FF281EEFA75A008FFA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F13FF3E1EEFABB9008FFA62 /* libvoro++.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F13FF221EEFA75A008FFA62 = {
+			isa = PBXGroup;
+			children = (
+				3F13FF2D1EEFA75B008FFA62 /* voronoi-gen */,
+				3F13FF2C1EEFA75B008FFA62 /* Products */,
+				3F13FF341EEFA790008FFA62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F13FF2C1EEFA75B008FFA62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F13FF2B1EEFA75B008FFA62 /* voronoi-gen.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F13FF2D1EEFA75B008FFA62 /* voronoi-gen */ = {
+			isa = PBXGroup;
+			children = (
+				3F13FF2E1EEFA75B008FFA62 /* Info.plist */,
+				3F13FF401EEFAEB6008FFA62 /* generate.mm */,
+				3F13FF421EEFAF2E008FFA62 /* generate.h */,
+			);
+			path = "voronoi-gen";
+			sourceTree = "<group>";
+		};
+		3F13FF341EEFA790008FFA62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F13FF3D1EEFABB9008FFA62 /* libvoro++.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F13FF2A1EEFA75A008FFA62 /* voronoi-gen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F13FF311EEFA75B008FFA62 /* Build configuration list for PBXNativeTarget "voronoi-gen" */;
+			buildPhases = (
+				3F13FF271EEFA75A008FFA62 /* Sources */,
+				3F13FF281EEFA75A008FFA62 /* Frameworks */,
+				3F13FF291EEFA75A008FFA62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "voronoi-gen";
+			productName = "voronoi-gen";
+			productReference = 3F13FF2B1EEFA75B008FFA62 /* voronoi-gen.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F13FF231EEFA75A008FFA62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Amit Shah";
+				TargetAttributes = {
+					3F13FF2A1EEFA75A008FFA62 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = VV98CR2VYJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F13FF261EEFA75A008FFA62 /* Build configuration list for PBXProject "voronoi-gen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F13FF221EEFA75A008FFA62;
+			productRefGroup = 3F13FF2C1EEFA75B008FFA62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F13FF2A1EEFA75A008FFA62 /* voronoi-gen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F13FF291EEFA75A008FFA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F13FF271EEFA75A008FFA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F13FF411EEFAEB6008FFA62 /* generate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3F13FF2F1EEFA75B008FFA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F13FF301EEFA75B008FFA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F13FF321EEFA75B008FFA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				DEVELOPMENT_TEAM = VV98CR2VYJ;
+				INFOPLIST_FILE = "voronoi-gen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "crowdsparq.voronoi-gen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3F13FF331EEFA75B008FFA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				DEVELOPMENT_TEAM = VV98CR2VYJ;
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/amitshah/Documents/macosx/voro++-0.4.6/**";
+				INFOPLIST_FILE = "voronoi-gen/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/amitshah/Documents/macosx/voro++-0.4.6/**";
+				PRODUCT_BUNDLE_IDENTIFIER = "crowdsparq.voronoi-gen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F13FF261EEFA75A008FFA62 /* Build configuration list for PBXProject "voronoi-gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F13FF2F1EEFA75B008FFA62 /* Debug */,
+				3F13FF301EEFA75B008FFA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F13FF311EEFA75B008FFA62 /* Build configuration list for PBXNativeTarget "voronoi-gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F13FF321EEFA75B008FFA62 /* Debug */,
+				3F13FF331EEFA75B008FFA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F13FF231EEFA75A008FFA62 /* Project object */;
+}
