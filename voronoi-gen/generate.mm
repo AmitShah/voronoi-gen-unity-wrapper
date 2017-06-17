@@ -59,10 +59,10 @@ extern "C" void EXPORT_API GenerateVoronoiCells(vert * randomVerts, int vsize, f
 
     int i;
     double x,y,z;
-    int n_x=6,n_y=6,n_z=6;
-    double x_min=-2,x_max=2;
+    int n_x=6,n_y=6,n_z=1;
+    double x_min=-1,x_max=1;
     double y_min=-1,y_max=1;
-    double z_min=-1,z_max=1;
+    double z_min=-0.5,z_max=0.5;
     double cvol=(x_max-x_min)*(y_max-y_min)*(z_max-z_min);
     
     // Create a container with the geometry given above, and make it
@@ -83,10 +83,10 @@ extern "C" void EXPORT_API GenerateVoronoiCells(vert * randomVerts, int vsize, f
     
     std::vector<float> vertices = std::vector<float>();
     
-    std::vector<int> v;
+    //std::vector<int> v;
     if(vl.start()) do{
         con.compute_cell(vc,vl);
-        vc.face_vertices(v);
+        //vc.face_vertices(v);
         
         //find the displacement vector
         double * pp = con.p[vl.ijk]+con.ps*vl.q;

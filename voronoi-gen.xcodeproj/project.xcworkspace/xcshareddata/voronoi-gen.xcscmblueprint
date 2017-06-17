@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6BEDDA746D03A2E5B810392AE7178C6DF5E9F7DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6BEDDA746D03A2E5B810392AE7178C6DF5E9F7DC" : 9223372036854775807,
+    "0493D3F31CD5A55152690F14081399DE1E5C7E8D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4891B018-3163-408D-BEBE-4F27AABB8C60",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6BEDDA746D03A2E5B810392AE7178C6DF5E9F7DC" : "voronoi-gen\/",
+    "0493D3F31CD5A55152690F14081399DE1E5C7E8D" : "voro++-0.4.6\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "voronoi-gen",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "voronoi-gen.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AmitShah\/unity-voro-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0493D3F31CD5A55152690F14081399DE1E5C7E8D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AmitShah\/voronoi-gen-unity-wrapper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6BEDDA746D03A2E5B810392AE7178C6DF5E9F7DC"
+    }
+  ]
+}

@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "169"
             endingLineNumber = "169"
-            landmarkName = "GenerateCells( double ** result, int * resultCount, int **cellResult, int * cellResultCount )"
+            landmarkName = "_VoronoiCells(vert * verts, int vsize, double ** result, int * rsize)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
